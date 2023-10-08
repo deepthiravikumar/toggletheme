@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY PORTFOLIO</title>
+    <style>
+        body {
+            color: white;
+            background-color: black;
+        }
+        .dark-mode {
+            background-color: black;
+        }
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">MY RESUME</h1>
+    <h2 style="text-align:center">Deepthi sri K R</h2>
+    <div id="content" class="dark-mode">
+        <h2>ABOUT ME</h2>
+        <p style="font-size:large">Enthusiastic artificial intelligence engineer seeking to deliver state-of-the-art AI solutions at your esteemed company. Experience includes using algorithms and data mining for my own personal projects while at Karpagam College Of Engineering. Relevant skills include Machine Learning, Data Structures, and Debugging.</p>
+        
+        <!-- ... (rest of your content) ... -->
+        <h2>EDUCATION</h2>
+<ul>
+    <li><b>B.TECH</b></li>
+    <p>KARPAGAM COLLEGE OF ENGINEERING</p>
+    <li><b>HSC</b></li>
+    <p>S.S.M.Lakshmiammal Mat.Hr.Sec.School</p>
+    <li><b>SSLC</b></li>
+    <p>S.S.M.Lakshmiammal Mat.Hr.Sec.School</p>
+</ul>
+<h2>TECHNICAL SKILLS</h2>
+<ul>
+    <li><b>PYTHON</b></li>
+    <li><b>ORACLE SQL</b></li>
+    <li><b>MACHINE LEARNING</b></li>
+    <li><b>DATA VISUALIZATION</b></li>
+</ul>
+<h2>PROJECTS</h2>
+<ul>
+    <li><b>PCOD DEDECTION USING MACHINE LEARNING ALGORITHMS</b></li>
+    <P>Tools & technologies used:Random Forest, SVM, Logistic Regression, Gaussian Naïve Bayes, K Neighbours</p>
+    <li><b>Identification of herb/drugs</b></li>
+</ul>
+<h2>CERTIFICATIONS</h2>
+    <ul>
+    <li><b>PYTHON</b></li>
+    <li><b>ORACLE SQL</b></li>
+    <li><b>POWER BI</b></li>
+</ul>
+<h2>DECLARATION</h2>
+<p>I hereby declare that above mentioned information is true to best of my knowledge</p>
+
+
+    </div>
+
+    <button onclick="toggleTheme()">Toggle Theme</button>
+
+    <script>
+        function toggleTheme() {
+            const content = document.getElementById('content');
+            if (content.classList.contains('dark-mode')) {
+                content.classList.remove('dark-mode');
+                content.classList.add('light-mode');
+            } else {
+                content.classList.remove('light-mode');
+                content.classList.add('dark-mode');
+            }
+        }
+    </script>
+</body>
+</html>
